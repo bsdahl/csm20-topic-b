@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE1D94E61BB344A00049F453 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE1D94E51BB344A00049F453 /* main.cpp */; };
+		CE1D94E61BB344A00049F453 /* TopicB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE1D94E51BB344A00049F453 /* TopicB.cpp */; };
+		CE8BDC9E1BB4B2B600016401 /* PrecondViolatedExcep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE1D94F71BB345BD0049F453 /* PrecondViolatedExcep.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,15 @@
 
 /* Begin PBXFileReference section */
 		CE1D94E21BB344A00049F453 /* Topic B */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Topic B"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE1D94E51BB344A00049F453 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CE1D94E51BB344A00049F453 /* TopicB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TopicB.cpp; sourceTree = "<group>"; };
+		CE1D94EC1BB3454C0049F453 /* LinkedQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedQueue.cpp; sourceTree = "<group>"; };
+		CE1D94ED1BB3454C0049F453 /* LinkedQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedQueue.h; sourceTree = "<group>"; };
+		CE1D94EF1BB345650049F453 /* LinkedStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedStack.cpp; sourceTree = "<group>"; };
+		CE1D94F01BB345650049F453 /* LinkedStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedStack.h; sourceTree = "<group>"; };
+		CE1D94F11BB345650049F453 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		CE1D94F21BB345650049F453 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		CE1D94F71BB345BD0049F453 /* PrecondViolatedExcep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrecondViolatedExcep.cpp; sourceTree = "<group>"; };
+		CE1D94F81BB345BD0049F453 /* PrecondViolatedExcep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrecondViolatedExcep.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +66,15 @@
 		CE1D94E41BB344A00049F453 /* Topic B */ = {
 			isa = PBXGroup;
 			children = (
-				CE1D94E51BB344A00049F453 /* main.cpp */,
+				CE1D94E51BB344A00049F453 /* TopicB.cpp */,
+				CE1D94EC1BB3454C0049F453 /* LinkedQueue.cpp */,
+				CE1D94ED1BB3454C0049F453 /* LinkedQueue.h */,
+				CE1D94EF1BB345650049F453 /* LinkedStack.cpp */,
+				CE1D94F01BB345650049F453 /* LinkedStack.h */,
+				CE1D94F11BB345650049F453 /* Node.cpp */,
+				CE1D94F21BB345650049F453 /* Node.h */,
+				CE1D94F71BB345BD0049F453 /* PrecondViolatedExcep.cpp */,
+				CE1D94F81BB345BD0049F453 /* PrecondViolatedExcep.h */,
 			);
 			path = "Topic B";
 			sourceTree = "<group>";
@@ -118,7 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1D94E61BB344A00049F453 /* main.cpp in Sources */,
+				CE1D94E61BB344A00049F453 /* TopicB.cpp in Sources */,
+				CE8BDC9E1BB4B2B600016401 /* PrecondViolatedExcep.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +250,7 @@
 				CE1D94EB1BB344A00049F453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
